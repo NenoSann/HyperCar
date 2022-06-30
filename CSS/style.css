@@ -1,0 +1,84 @@
+/*Using Color
+
+    MainColorRed: #c92a2a
+    MainColorYellow: #f08c00
+    Racing Red: #bd162c
+    Rallying Blue: #7eb5de
+    Lamborghini Yellow: #ffdc64
+*/
+
+/*FontFamily
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    /* Layout */
+    padding: 30px;
+
+    /* Set FontFamily */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color:#777
+}
+
+.header {
+    position: relative;
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,hwb(206 23% 5% / 0.45),hwb(206 15% 5% / 0.05)),url(../image/FerrariLandscape.jpg);
+    background-size: cover;
+    background-position: top;
+    /* clip-path used to cut the image */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
+}
+
+.text-box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 30%;
+}
+
+.heading-primary {
+    color: white;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    display: block;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    word-spacing: 40px;
+}
+
+.heading-primary-sub {
+    display: block;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    word-spacing: 13px;
+}
+
+.logo-box {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 60px;
+    width: auto;
+}
+
+.logo-box img {
+    height: 10vw;
+    width: auto;
+}
